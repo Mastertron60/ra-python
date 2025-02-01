@@ -110,7 +110,7 @@ def init():
     wall_stake_motor.set_position(0, DEGREES)
     wall_stake_motor.stop()
 
-    controller.buttonX.pressed(wall_stake_motor.spin_to_position, (15, DEGREES))
+    controller.buttonX.pressed(wall_stake_motor.spin_to_position, (40, DEGREES))
     controller.buttonA.pressed(wall_stake_motor.spin_to_position, (150, DEGREES))
     controller.buttonY.pressed(wall_stake_motor.spin_to_position, (0, DEGREES))
 
